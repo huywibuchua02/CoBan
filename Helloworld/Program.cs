@@ -8,6 +8,7 @@ namespace Helloworld
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hê lô wuốt ");
         }
     }
 }
