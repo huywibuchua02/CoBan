@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tuan2", "Tuan2", "{30221E6E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{6F2D13FE-D51E-486C-A15F-F48FF82215FB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThucHanh", "ThucHanh", "{0BF9E501-3F72-423D-996D-B9149509A56C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuyBu", "HuyBu\HuyBu.csproj", "{25BD2796-0CE9-41A5-B944-2722A7EBB0B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{6F2D13FE-D51E-486C-A15F-F48FF82215FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F2D13FE-D51E-486C-A15F-F48FF82215FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F2D13FE-D51E-486C-A15F-F48FF82215FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25BD2796-0CE9-41A5-B944-2722A7EBB0B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BD2796-0CE9-41A5-B944-2722A7EBB0B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BD2796-0CE9-41A5-B944-2722A7EBB0B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BD2796-0CE9-41A5-B944-2722A7EBB0B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D64E9738-CCE8-48A0-B2C0-7F52E854227A} = {9181D5E6-FC9B-49DF-B783-78438D8BB862}
 		{6F2D13FE-D51E-486C-A15F-F48FF82215FB} = {30221E6E-7233-4CC4-B3CF-01A8E2AF5FC3}
+		{25BD2796-0CE9-41A5-B944-2722A7EBB0B4} = {0BF9E501-3F72-423D-996D-B9149509A56C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4C30F91-0BCA-478C-AD90-15A902E40571}
