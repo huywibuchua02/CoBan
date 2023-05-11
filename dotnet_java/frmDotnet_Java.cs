@@ -22,7 +22,7 @@ namespace dotnet_java
             ProcessStartInfo startInfo = new ProcessStartInfo();
             startInfo.CreateNoWindow = true;
             startInfo.UseShellExecute = false;
-            startInfo.FileName = "\"C:\\Program Files\\Java\\jdk-19\\bin\\java.exe\"";
+            startInfo.FileName = "\"c:\\Program Files\\Java\\jdk-19\\bin\\java.exe\"";
             startInfo.WindowStyle = ProcessWindowStyle.Hidden;
             startInfo.RedirectStandardOutput = true;
             startInfo.WorkingDirectory = Application.StartupPath;
@@ -40,7 +40,7 @@ namespace dotnet_java
                     }
                 }
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 txtKQ.AppendText($"ERROR: {ex.Message}");
             }
